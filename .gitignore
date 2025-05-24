@@ -1,6 +1,11 @@
 # Dependencies
 node_modules/
 npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npm/
 
 # Build outputs
 [Dd]ebug/
@@ -9,9 +14,16 @@ npm-debug.log
 [Oo]bj/
 build/
 dist/
+# Recommend keeping package-lock.json in version control
+# package-lock.json
 
 # OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 *.swp
 *~
@@ -21,3 +33,46 @@ Thumbs.db
 .idea/
 *.user
 *.suo
+*.sublime-project
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# Caches
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+
+# Expo/React Native specific
+.expo/
+.expo-shared/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Temporary files
+tmp/
+temp/
