@@ -65,6 +65,7 @@ logs/
 # Expo/React Native specific
 .expo/
 .expo-shared/
+expo-env.d.ts
 *.jks
 *.p8
 *.p12
