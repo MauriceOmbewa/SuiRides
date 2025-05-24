@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+npm-debug.log
+
+# Build outputs
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+build/
+dist/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE/Editor files
+.vs/
+.idea/
+*.user
+*.suo
